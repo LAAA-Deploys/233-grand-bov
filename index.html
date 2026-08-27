@@ -351,6 +351,8 @@
   .info-box { display: flex; flex-direction: column; }
   .info-box > *:last-child { margin-bottom: 0; }
   .info-box .bullets { margin-bottom: 0; }
+  /* distribute the shorter panel so equal heights do not read as dead white */
+  #property .info-box > p:last-child { margin-top: auto; padding-top: 18px; }
   td.var-gap { color: var(--gold-dark); font-weight: 700; }
   .gallery img { height: 300px; }
   footer a, .contact a, .agent-card a { overflow-wrap: anywhere; word-break: break-word; }
