@@ -346,6 +346,11 @@
   }
 
   /* --- BOV additions --- */
+  /* .info-box paints a white card inside section.navy, which sets color:white.
+     Bell only ever styled h4 and dl/dt/dd, so h3/p/ul inherited white-on-white. */
+  .info-box { color: var(--gray-800); }
+  section.navy .info-box h3 { color: var(--navy); }
+  .info-box strong { color: var(--navy); }
   .hero-stat .val, .hero-stat .lbl, .key-metric .val, .key-metric .lbl { display: block; }
   /* equal-height panels so the pair does not end ragged on the navy ground */
   #property .two-col { align-items: stretch; }
