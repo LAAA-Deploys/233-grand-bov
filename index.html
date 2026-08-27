@@ -346,6 +346,13 @@
   }
 
   /* --- BOV additions --- */
+  /* equal-height panels so the pair does not end ragged on the navy ground */
+  #property .two-col { align-items: stretch; }
+  .info-box { display: flex; flex-direction: column; }
+  .info-box > *:last-child { margin-bottom: 0; }
+  .info-box .bullets { margin-bottom: 0; }
+  td.var-gap { color: var(--gold-dark); font-weight: 700; }
+  .gallery img { height: 300px; }
   footer a, .contact a, .agent-card a { overflow-wrap: anywhere; word-break: break-word; }
   .two-col > *, .value-grid > *, .key-metrics > *, .team-grid > *,
   .footer-grid > *, .gallery > *, .highlights > * { min-width: 0; }
@@ -465,8 +472,7 @@
     <div class="gallery" style="margin-top:44px;">
       <img src="images/grand-aerial.jpg" alt="Aerial view of 233-239 S Grand Avenue showing the front and rear structures and detached garages" />
       <img src="images/grand-exterior.jpg" alt="Street level view of the 233 entry" />
-      <img src="images/grand-interior.jpg" alt="Interior of a vacant unit" />
-      <img src="images/grand-hero.jpg" alt="Aerial context view of San Pedro toward the harbor" />
+      <img src="images/grand-interior.jpg" alt="Interior of a vacant unit" style="object-position: center 38%;" />
     </div>
   </div>
 </section>
@@ -482,9 +488,9 @@
         <thead><tr><th>Unit</th><th>Type</th><th>Occupied Since</th><th>Current Rent</th><th>Projected Market</th><th>Variance</th><th>Tenancy</th></tr></thead>
         <tbody>
           <tr><td>233</td><td>1 Bd / 1 Ba</td><td>2023</td><td>$1,568</td><td>$1,600</td><td>$32</td><td>Month to month</td></tr>
-          <tr><td>235</td><td>1 Bd / 1 Ba</td><td>2011</td><td>$834</td><td>$1,600</td><td class="pro-forma">$766</td><td>Month to month</td></tr>
+          <tr><td>235</td><td>1 Bd / 1 Ba</td><td>2011</td><td>$834</td><td>$1,600</td><td class="var-gap">$766</td><td>Month to month</td></tr>
           <tr><td>237</td><td>1 Bd / 1 Ba</td><td>2023</td><td>$1,512</td><td>$1,600</td><td>$88</td><td>Month to month</td></tr>
-          <tr><td>239</td><td>1 Bd / 1 Ba</td><td>2011</td><td>$834</td><td>$1,600</td><td class="pro-forma">$766</td><td>Month to month</td></tr>
+          <tr><td>239</td><td>1 Bd / 1 Ba</td><td>2011</td><td>$834</td><td>$1,600</td><td class="var-gap">$766</td><td>Month to month</td></tr>
         </tbody>
         <tfoot>
           <tr class="subtotal"><td colspan="3">Monthly</td><td>$4,748</td><td>$6,400</td><td>$1,652</td><td></td></tr>
