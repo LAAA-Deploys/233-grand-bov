@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.0.0",
+  "deal_id": "233-239-s-grand-ave-san-pedro",
+  "archive": [
+    {
+      "id": "hero-aerial",
+      "filename": "233-grand-hero-aerial.png",
+      "sha256": "a720d5c9238f753dc014b33787cf9147ea9dde999391cc45bd111320a9713480",
+      "phash": "9eb463b85413e25e",
+      "source": "web_other",
+      "source_url": "https://maps.googleapis.com/maps/api/staticmap",
+      "access_date": "2026-08-28",
+      "category": "aerial",
+      "width": 1280,
+      "height": 960,
+      "stock_or_illustrative": false,
+      "stock_basis": null,
+      "property_match": "confirmed_human",
+      "match_basis": "Rendered server side from the approved rooftop pin for APN 7451-016-028 (place_id ChIJsZIn9CQ23YARJQRMcG9MbWw). The frame is centred on the subject parcel and shows both structures, the four detached garages and the Grand Avenue frontage.",
+      "reviewed_by": "Glen Scher",
+      "reviewed_at": "2026-08-28T05:30:00Z",
+      "rights_holder": "Google and its imagery providers",
+      "publication_basis": "licensed",
+      "usage_scope": "Rendered under the Google Maps Platform terms with the required attribution retained in the image.",
+      "required_credit": "Map data ©2026 Google. Imagery ©2026 Airbus, Maxar Technologies.",
+      "status": "published",
+      "rejected_reason": null,
+      "rendered_width": 1280,
+      "rendered_height": 960,
+      "exception_id": null
+    },
+    {
+      "id": "exterior-233",
+      "filename": "233-grand-exterior.png",
+      "sha256": "7c3eca4d651754bbc42ffa8df587657f9fcf9d1a3d7df5879749bfd824aafd0e",
+      "phash": "b0f2ceb765319950",
+      "source": "seller",
+      "source_url": null,
+      "access_date": "2026-08-28",
+      "category": "exterior",
+      "width": 944,
+      "height": 666,
+      "stock_or_illustrative": false,
+      "stock_basis": null,
+      "property_match": "confirmed_human",
+      "match_basis": "Street level photograph of the subject supplied by the ownership. The unit number 233 is legible above the entry, matching the primary address on the assessment record.",
+      "reviewed_by": "Glen Scher",
+      "reviewed_at": "2026-08-28T05:30:00Z",
+      "rights_holder": "the Matthew E Meyer Trust",
+      "publication_basis": "seller_provided",
+      "usage_scope": "Supplied by the ownership for use in this opinion of value.",
+      "required_credit": null,
+      "status": "published",
+      "rejected_reason": null,
+      "rendered_width": 944,
+      "rendered_height": 666,
+      "exception_id": null
+    }
+  ],
+  "published": {
+    "order": [
+      "hero-aerial",
+      "exterior-233"
+    ],
+    "hero": "hero-aerial",
+    "contact_sheet_sha256": "4a48989c8d7c2ba5c73b00c96e5e8d9632a361fd3f60be28aa6075aea8a5e6a7"
+  }
+}

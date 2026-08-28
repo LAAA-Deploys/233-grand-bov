@@ -1,0 +1,114 @@
+{
+  "schema_version": "1.0.0",
+  "entries": [
+    {
+      "property": "233-grand",
+      "category": "subject",
+      "label": "233-239 S Grand Ave",
+      "lat": 33.7417654,
+      "lng": -118.29045409999998,
+      "place_id": "ChIJsZIn9CQ23YARJQRMcG9MbWw",
+      "precision": "ROOFTOP",
+      "needs_review": false
+    },
+    {
+      "property": "233-grand",
+      "category": "sold",
+      "label": "359 W Amar St, San Pedro",
+      "lat": 33.74769,
+      "lng": -118.28468000000001,
+      "place_id": "ChIJfeFCqj023YARLfOY5wmJ7as",
+      "precision": "ROOFTOP",
+      "needs_review": false,
+      "order": 1
+    },
+    {
+      "property": "233-grand",
+      "category": "sold",
+      "label": "226 N Western Ave, San Pedro",
+      "lat": 33.74554,
+      "lng": -118.309391,
+      "place_id": "ChIJe5h8uedJ3YARjF87hJqMU90",
+      "precision": "ROOFTOP",
+      "needs_review": false,
+      "order": 2
+    },
+    {
+      "property": "233-grand",
+      "category": "sold",
+      "label": "1025 W 12th St, San Pedro",
+      "lat": 33.7331104,
+      "lng": -118.29965130000001,
+      "place_id": "ChIJW-PMK9ZJ3YARToNlSHDbIe8",
+      "precision": "ROOFTOP",
+      "needs_review": false,
+      "order": 3
+    },
+    {
+      "property": "233-grand",
+      "category": "sold",
+      "label": "1260 W 9th St, San Pedro",
+      "lat": 33.736376,
+      "lng": -118.3047089,
+      "place_id": "ChIJVSVcjtlJ3YARKz-6spef1Ng",
+      "precision": "ROOFTOP",
+      "needs_review": false,
+      "order": 4
+    },
+    {
+      "property": "233-grand",
+      "category": "rent",
+      "label": "666 W 7th St, San Pedro",
+      "lat": 33.7379956,
+      "lng": -118.2915297,
+      "place_id": "ChIJVxE6iCU23YARaw2f8pf0BYo",
+      "precision": "ROOFTOP",
+      "needs_review": false,
+      "order": 1
+    },
+    {
+      "property": "233-grand",
+      "category": "rent",
+      "label": "339 N Grand Ave, San Pedro",
+      "lat": 33.745886299999995,
+      "lng": -118.29032349999999,
+      "place_id": "ChIJYzr1ASM23YAR8PyE7H12tuc",
+      "precision": "ROOFTOP",
+      "needs_review": false,
+      "order": 2
+    },
+    {
+      "property": "233-grand",
+      "category": "rent",
+      "label": "860 W 5th St, San Pedro",
+      "lat": 33.7399148,
+      "lng": -118.2953703,
+      "place_id": "ChIJZT6x-iY23YAR67wNv3OBBN8",
+      "precision": "ROOFTOP",
+      "needs_review": false,
+      "order": 3
+    },
+    {
+      "property": "233-grand",
+      "category": "rent",
+      "label": "106 S Pacific Ave, San Pedro",
+      "lat": 33.7431645,
+      "lng": -118.2877212,
+      "place_id": "ChIJT5JPsyQ23YARyVIzJe_hfHY",
+      "precision": "ROOFTOP",
+      "needs_review": false,
+      "order": 4
+    }
+  ],
+  "renders": {
+    "images/maps-portfolio-subjects.png": "d02cd45bf65eb5b18ccf6327a21ea98b3fe3e489e5c1229c62ee568dc16916a5",
+    "images/maps-portfolio-subjects-tall.png": "72e504be2e2a281c4020ae7a611bb865e0a683648d00fbacf07b00651bb9a1d7",
+    "images/maps-233-grand-subject.png": "54c1fb5c754df6994033b6dd110ed3ea35aa6215b4785b60d18926ffa9d2a2b4",
+    "images/maps-233-grand-subject-tall.png": "2020bf9d033313d1877229f7bdd6be67368b23b580b663e82306f0db2fd42746",
+    "images/maps-233-grand-sale-comps.png": "7eca7739d8fea321609242bd82c05dbf990ee2221cbe2dc98ceb9fedceae05e3",
+    "images/maps-233-grand-sale-comps-tall.png": "55a6632bf27d704f8f701bffb93ce017467b2c2ca7b3cb71d89cb102688922c7",
+    "images/maps-233-grand-rent-comps.png": "1527e6e1a2589bfa44182cc28a50cd43e5689847e95f88cb092a92e4277b4c6f",
+    "images/maps-233-grand-rent-comps-tall.png": "4f616b891266d59779e0036115d67758a07c4e0fb5f4f52be0caacb25563bc8f"
+  },
+  "closings": {}
+}

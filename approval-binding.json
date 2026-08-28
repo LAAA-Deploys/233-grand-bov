@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0.0",
+  "scope": "deal",
+  "deal_id": "233-239-s-grand-ave-san-pedro",
+  "portfolio_id": null,
+  "package_version": "v4",
+  "approved_at": "2026-08-28T06:53:28.430019+00:00",
+  "approver": "Glen Scher",
+  "price": {
+    "value": 775000
+  },
+  "approved_exception_ids": [],
+  "domains": {
+    "copy": {
+      "content_sha256": "a21c5081aca4ab56b8933784117460aa3c45ceeb8debce500591958f22b3239d"
+    },
+    "financial_inputs": {
+      "content_sha256": "8a6e6abef5f80fe47f11b02459a64ba1b451e97567ce1b8e0e9b44f22fb4d79d"
+    },
+    "identity": {
+      "content_sha256": "82a4463fafa1de08f1187a6365da0404829a7fad8ecac32bf95389a3d65fb535"
+    },
+    "media_selection": {
+      "content_sha256": "df4774bb5ddf43052b3b7cd8557eb6d3b86e9942623f6fb67bcefc00aa0347d9"
+    },
+    "pricing_decision": {
+      "content_sha256": "9c9cf1ba8c7848bce731adf14d7fe2db810b1d153a84a0f6184746847e3fd88a"
+    },
+    "regulatory_conclusions": {
+      "content_sha256": "a90e6d5248cf15bfcba10d856935fda4cfda1b6c71b93dade662b58df66b50b9"
+    },
+    "rent_comps": {
+      "content_sha256": "73004566306cff41c4bfc23e185cd49e07724037a0a6d5244ad2ac7c21f7e729"
+    },
+    "sale_comps": {
+      "content_sha256": "df0b8f9ec8d3f9a32b59157f2dc183a5e521895aba3ed6db227d84c2f131c3a6"
+    }
+  },
+  "legacy_snapshot": false,
+  "legacy_label": null,
+  "members": null
+}
